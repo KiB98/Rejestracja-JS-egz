@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sklep - rejestracja</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        <aside>
+            <img src="obraz.png" alt="promocje">
+            <h2>Sprawdź promocje</h2>
+            <table>
+                <tr>
+                    <th>co?</th><th>ile taniej?</th>
+                </tr>
+                <tr>
+                    <td>ubrania</td><td>15%</td>
+                </tr>
+                <tr>
+                    <td>buty</td><td>25%</td>
+                </tr>
+            </table>
+        </aside>
+        <header>
+            <h1>Zarejestruj się w sklepie</h1>
+        </header>
+        <main>
+            <button>Klient</button>
+            <button>Adres</button>
+            <button>Kontakt</button>
+            <section id = "blok_klient" class="blok">
+                <div class="row">
+                    <p>Imię</p>
+                    <input type="text" placeholder="Wpisz dane...">
+                </div>
+                <div class="row">
+                    <p>Nazwisko</p>
+                    <input type="text">
+                </div>
+                <div class="row">
+                    <p>Data urodzenia</p>
+                    <input type="date">
+                </div>
+            </section>
+            <section id = "blok_adres" class="blok">
+                <div class="row">
+                    <p>Ulica</p>
+                    <input type="text"">
+                </div>
+                <div class="row">
+                    <p>Numer</p>
+                    <input type="number">
+                </div>
+                <div class="row">
+                    <p>Miasto</p>
+                    <input type="text">
+                </div>
+            </section>
+            <section id = "blok_kontakt" class="blok">
+                <div class="row">
+                    <p>Numer komórkowy</p>
+                    <input type="tel">
+                </div>
+                <div class="row">
+                    <input type="checkbox">
+                    <label>Akceptuję RODO</label>
+                </div>
+                <div class="row">
+                    <button id="zatwierdz_dane">Zatwierdź dane</button>
+                </div>
+            </section>
+        </main>
+        <section id="pasek_postepu">
+            <section></section>
+        </section>
+        <footer>
+            <h4>Rejestrację do sklepu wykonał: ...</h4>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

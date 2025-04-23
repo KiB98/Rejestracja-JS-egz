@@ -1,0 +1,68 @@
+*{
+    font-family: Cambria;
+}
+body{
+    background-color: Linen;
+}
+aside,header,footer{
+    background-color: SteelBlue;
+    color:white;
+    text-align:center;
+}
+aside{
+    width:25%;
+    height:510px;
+    margin: 0 1%;
+    box-shadow: 4px 4px 5px DimGray;
+    float:left;
+}
+
+header{
+    width:73%;
+    height:80px;
+}
+main{
+    width:73%;
+    height:400px;
+}
+header,main,#pasek_postepu{
+    float:right;
+}
+footer{
+    clear:both;
+}
+button{
+    background-color: steelblue;
+    color: white;
+    width:20%;
+    padding:15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: none;
+}
+button:hover{
+    background-color: navy;
+}
+.blok{
+    background-color: lightblue;
+    margin-right:80px;
+    padding:10px;
+    display:none;
+}
+#blok_klient{
+    display:block;
+}
+#pasek_postepu{
+    background-color: lightgrey;
+    width:73%;
+    margin-bottom:10px;
+}
+#pasek_postepu section{
+    background-color: navy;
+    width:4%;
+    height:30px;
+}
+table{
+    width:100%;
+    border: dotted 1px navy;
+}
